@@ -5,6 +5,8 @@ from .models import *
 admin.site.register(
     [
         ContentTemplate,
-        NumberGroup
+        NumberGroup,
+        SendMessageModel,
+        Customer
     ]
 )

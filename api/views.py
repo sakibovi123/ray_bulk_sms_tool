@@ -30,3 +30,9 @@ class DELETEContentTemplateView(APIView):
 
     def delete(self, request):
         pass
+
+
+class POSTMessage(APIView):
+
+    def post(self, request):
+        pass
