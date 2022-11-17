@@ -1,0 +1,13 @@
+{% extends 'Base/base.html' %}
+
+{% block content %}
+    <header class="flex items-center justify-between h-[60px] w-full bg-slate-900">
+        <div class="logo-container m-5 p-5">
+            <a class="text-white text-2xl cursor-pointer" href="{% url 'AdminIndex' %}">SMS BULKER</a>
+        </div>
+        <div class="text-white p-5 m-5">
+            <a href="" class="p-3 bg-orange-300 rounded text-black">Account</a>
+            <a href="" class="p-3 bg-red-300 rounded text-black">Logout</a>
+        </div>
+    </header>
+{% endblock %}

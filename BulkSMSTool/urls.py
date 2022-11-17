@@ -7,5 +7,5 @@ urlpatterns = [
     path("api/", include("api.urls")),
 
     # custom admin url
-    path("/custom-admin", include("customadmin.urls"))
+    path("custom-admin/", include("customadmin.urls"))
 ]
